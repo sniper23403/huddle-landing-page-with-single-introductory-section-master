@@ -49,10 +49,16 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    padding: 40px !important; 
   }
 
   body{
     background-color: hsl(257, 40%, 49%);
     background-image: url(./images/bg-desktop.svg);
     background-repeat: no-repeat;
+  }
+
+  .Logo{
+    width: 15em !important;
+    margin-bottom: 30px !important;
   }
