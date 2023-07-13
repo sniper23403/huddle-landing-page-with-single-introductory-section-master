@@ -49,16 +49,84 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 40px !important; 
+    padding: 40px 40px 40px 71px !important;
   }
 
   body{
     background-color: hsl(257, 40%, 49%);
     background-image: url(./images/bg-desktop.svg);
     background-repeat: no-repeat;
+    overflow: hidden;
   }
 
   .Logo{
     width: 15em !important;
-    margin-bottom: 30px !important;
+    margin-bottom: 3em !important;
+  }
+
+  .container{
+    display: flex;
+    padding-top: 2.5em !important;
+    padding-bottom: 1.875em !important;
+  }
+
+  .left-side {
+    padding-right: 3.125em;
+  }
+
+  .right-side {
+    width: 29em;
+    margin-top: 3em;
+    margin-left: 1em;
+  }
+
+  /*Build The Community Your Fans Will Love*/
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 0.9375em;
+  }
+
+  /*Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+          Create connections with your users as you engage in genuine discussion*/
+  p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 1.875em;
+  }
+
+  /* Register*/
+  button {
+    padding: 0.8125em 3.75em;
+    border-radius: 2.1875em;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(257, 40%, 49%);
+    font-size: 1rem;
+    border: 0;
+  }
+
+  /*including facebook instagram twitter*/
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5625em;
+    padding-right: 7.8125em !important;
+  }
+  
+  .icons svg {
+    width: 2.5em;
+    height: auto;
+  }
+ /*change color of the button*/
+  button:active{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    cursor: pointer;
+  }
+  /*change color of the icons*/
+  .icons svg:active{
+    fill:  hsl(300, 69%, 71%);
+    cursor: pointer;
   }
