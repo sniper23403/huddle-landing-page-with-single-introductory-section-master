@@ -130,3 +130,11 @@
     fill:  hsl(300, 69%, 71%);
     cursor: pointer;
   }
+
+  @media screen and (max-width:420px){
+    main{
+      background-image: url(./images/bg-mobile.svg);
+      
+    }
+    
+  }
