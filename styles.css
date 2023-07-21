@@ -135,7 +135,53 @@
     body{
       background-image: url(./images/bg-mobile.svg);
       background-repeat: no-repeat;
-      
+      overflow: scroll;
+    }
+
+    main {
+      padding: 2.1875em !important;
+    }
+
+    .container {
+      flex-direction: column;
+      padding-top: 1.5em;
+      padding-bottom: 4.875em;
+    }
+
+    .left-side{
+     padding-right: 0; 
+    }
+
+    .right-side {
+      width: 17em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 4em;
+    }
+
+    .Logo  {
+      width: 8em !important;
+      margin-bottom: 1em !important;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    p{
+      text-align: center;
+    }
+
+    button {
+      padding: 0.8125em 5.75em;
+      font-size: 0.8rem;
+    }
+
+    .icons {
+      padding-right: 0;
+      justify-content: center;
     }
     
   }
