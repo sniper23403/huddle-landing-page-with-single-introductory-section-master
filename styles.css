@@ -56,6 +56,7 @@
     background-color: hsl(257, 40%, 49%);
     background-image: url(./images/bg-desktop.svg);
     background-repeat: no-repeat;
+    background-size: contain;
     overflow: hidden;
   }
 
@@ -69,11 +70,12 @@
     padding-top: 2.5em !important;
     padding-bottom: 1.875em !important;
   }
-
+  
+  /*contain the ilustration*/
   .left-side {
     padding-right: 3.125em;
   }
-
+  
   .right-side {
     width: 29em;
     margin-top: 3em;
@@ -105,6 +107,8 @@
     color: hsl(257, 40%, 49%);
     font-size: 1rem;
     border: 0;
+    box-shadow: 1px 3px 7px 0px #00000099;
+    background-color: white;
   }
 
   /*including facebook instagram twitter*/
@@ -146,6 +150,7 @@
       flex-direction: column;
       padding-top: 1.5em;
       padding-bottom: 4.875em;
+      align-items: center;
     }
 
     .left-side{
@@ -153,7 +158,7 @@
     }
 
     .right-side {
-      width: 17em;
+      width: 20em;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -172,16 +177,23 @@
 
     p{
       text-align: center;
+      font-size: 1.05rem;
     }
 
     button {
-      padding: 0.8125em 5.75em;
+      padding: 0.8125em 6.75em;
       font-size: 0.8rem;
+      margin-bottom: 2em;
     }
 
     .icons {
-      padding-right: 0;
+      padding-right: 0 !important;
       justify-content: center;
+      gap: 0.7em;
+    }
+
+    .icons svg {
+      width: 1.5em;
     }
     
-  }
+ }
